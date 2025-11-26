@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasonal Fashion Guide</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container" id="dashboard">
+        <header class="dashboard-header">
+            <h1><i class="fas fa-tshirt"></i> Seasonal Fashion Guide</h1>
+            <p>Your personal stylist for every season</p>
+        </header>
+
+        <div class="season-cards">
+            <div class="season-card spring">
+                <div class="season-icon">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <h3>Spring Fashion</h3>
+                <p>Fresh styles for the blooming season</p>
+                <button class="season-btn" data-season="spring">Explore</button>
+            </div>
+
+            <div class="season-card summer">
+                <div class="season-icon">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <h3>Summer Fashion</h3>
+                <p>Cool trends for hot days</p>
+                <button class="season-btn" data-season="summer">Explore</button>
+            </div>
+
+            <div class="season-card fall">
+                <div class="season-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3>Fall Fashion</h3>
+                <p>Cozy layers for crisp days</p>
+                <button class="season-btn" data-season="fall">Explore</button>
+            </div>
+
+            <div class="season-card winter">
+                <div class="season-icon">
+                    <i class="fas fa-snowflake"></i>
+                </div>
+                <h3>Winter Fashion</h3>
+                <p>Warm styles for cold weather</p>
+                <button class="season-btn" data-season="winter">Explore</button>
+            </div>
+        </div>
+
+        <div class="dashboard-footer">
+            <button id="chatbot-launch-btn">
+                <i class="fas fa-comments"></i> Talk to Fashion Assistant
+            </button>
+        </div>
+    </div>
+
+    <div class="chatbot-container hidden" id="chatbot-container">
+        <div class="chatbot-header">
+            <i class="fas fa-tshirt"></i> Fashion Assistant
+            <button id="close-chatbot"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages">
+            <!-- Messages will appear here -->
+        </div>
+        <div class="quick-replies" id="quick-replies">
+            <!-- Quick reply buttons will appear here -->
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="user-input" placeholder="Type your fashion question...">
+            <button id="send-button"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <footer class="dev-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Development Team</h3>
+                <ul>
+                    <li>Shivam Kumar - Reg: 12300972</li>
+                    <li>Ritik Kumar - Reg: 12300487</li>
+                    <li>Mahboob Alam - Reg: 12301021</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Project Details</h3>
+                <p>Seasonal Fashion Guide Chatbot</p>
+                <p>Version 1.0.0</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Seasonal Fashion Guide. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="landing.js"></script>
+</body>
+</html>
