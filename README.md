@@ -1,6 +1,6 @@
 ## Seasonal Clothing Chatbot
 
-#A smart and interactive Seasonal Shopping Chatbot built using HTML, CSS, and JavaScript that helps users choose the best clothes for different seasons like summer, winter, and monsoon through quick and engaging responses.
+# A smart and interactive Seasonal Shopping Chatbot built using HTML, CSS, and JavaScript that helps users choose the best clothes for different seasons like summer, winter, and monsoon through quick and engaging responses.
 
 # 🌤️ Features
 
