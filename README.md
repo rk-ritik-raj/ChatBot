@@ -1,8 +1,8 @@
-##Seasonal Clothing Chatbot
+## Seasonal Clothing Chatbot
 
 #A smart and interactive Seasonal Shopping Chatbot built using HTML, CSS, and JavaScript that helps users choose the best clothes for different seasons like summer, winter, and monsoon through quick and engaging responses.
 
-#🌤️ Features
+# 🌤️ Features
 
 Recommends clothing based on seasons (summer, winter, monsoon, etc.)
 
@@ -14,7 +14,7 @@ Real-time responses using JavaScript
 
 Lightweight and easy to integrate into any website
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 HTML – Structure
 
@@ -22,7 +22,7 @@ CSS – Styling & responsive layout
 
 JavaScript – Chatbot logic and message handling
 
-#📂 Project Structure
+# 📂 Project Structure
 /assets
   /css
   /js
@@ -31,7 +31,7 @@ script.js
 style.css
 README.md
 
-#⚙️ Installation
+# ⚙️ Installation
 
 Clone the repository:
 
@@ -42,7 +42,7 @@ Open the project folder.
 
 Run index.html in any browser — no server required.
 
-#📌 How It Works
+# 📌 How It Works
 
 User types a season or clothing-related query
 
@@ -50,7 +50,7 @@ Chatbot identifies the season and suggests suitable outfits
 
 Offers quick tips for styling and weather-appropriate clothing
 
-#👨‍💻 Developer
+# 👨‍💻 Developer
 
 Ritik Kumar
 
